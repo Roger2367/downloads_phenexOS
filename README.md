@@ -6,11 +6,13 @@ The website can be accessed through the following URLs:
 > - http://downloads.phenexos.com
 
 Main Site can be accessed through the following URLs:
-> - http://www.phenexos.com 
+> - http://www.phenexos.com
 
 ####Resources
 > - [Bootstrap](https://github.com/twbs)
 > - [NProgress](https://github.com/rstacruz/nprogress)
+> - [Mokee](https://download.mokeedev.com)
+> - [CyanogenMod](https://download.cyanogenmod,org)
 
 
 ####License
