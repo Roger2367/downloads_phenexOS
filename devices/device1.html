@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css"/>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='css/nprogress.css' rel='stylesheet' />
+  <link rel="shortcut icon" href="bg.png"/>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <title>Phenex Operating System</title>
+  <script src="js/nav.js"></script>
+  <script>
+  function goBack() {
+    window.history.back()
+  }
+  </script>
+</head>
+<body>
+    <script src='js/nprogress.js'></script>
+    <div id='cssmenu'>
+    <ul>
+       <li><a href='http://www.phenexos.com'>Home</a></li>
+       <li class='active'><a href='http://downloads.phenexos.com'>Downloads</a> </li>
+       <li><a href='#'>About</a></li>
+       <li><a href='#'>Contact</a></li>
+    </ul>
+    </div>
+<img src="logo.png" alt="Phenex OS" />
+  <div class="container-fluid">
+    <div class="row-fluid content">
+      <div class="span12">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Device</th>
+              <th>Type</th>
+              <th>PhenexOS Build</th>
+              <th>Size</size>
+              <th>Date Added</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td>DeviceName<br/></td>
+              <td>Build-Type</td>
+              <td><b>Download</b>: <a href="Direct Link from AFH servers">pos-7.1.1-xxxxxxxx-build-type-DeviceName.zip</a><br /></td>
+              <td>File Size</td></br>
+              <td>XXXX-XX-XX XX:XX:XX</td>
+            </tr>
+<!--copy the above code
+ <tr>
+    <td>DeviceName<br/></td>
+    <td>Build-Type</td>
+    <td><b>Download</b>: <a href="Direct Link from AFH servers">pos-7.1.1-xxxxxxxx-build-type-DeviceName.zip</a><br /></td>
+    <td>File Size</td></br>
+    <td>XXXX-XX-XX XX:XX:XX</td>
+</tr>
+to make new files. Create new rows above it ,so that it can come on top-->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+    <center><button class="button" style="vertical-align:middle"onclick="goBack()"><span>Go Back</span></center>
+  <script>
+    NProgress.start();
+    setTimeout(function() { NProgress.set(0.45); $('.fade').removeClass('out'); }, 0);
+    setTimeout(function() { NProgress.set(0.80); $('.fade').removeClass('out'); }, 1000);
+    setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 1500);
+  </script>
+</body>
+</html>

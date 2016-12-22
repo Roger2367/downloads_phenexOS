@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="css/nav.css">
+    <link href='css/nprogress.css' rel='stylesheet' />
+    <link rel="shortcut icon" href="bg.png"/>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <title>Phenex Operating System</title>
+    <script src="js/nav.js"></script>
+</head>
+  <body>
+      <script src='js/nprogress.js'></script>
+    <div id='cssmenu'>
+    <ul>
+       <li><a href='http://www.phenexos.com'>Home</a></li>
+       <li class='active'><a href='index.html'>Downloads</a> </li>
+       <li><a href='#'>About</a></li>
+       <li><a href='#'>Contact</a></li>
+    </ul>
+    </div>
+    <img src="logo.png" alt="Phenex OS" />
+      <div class="row-fluid content">
+        <div class="span2">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Social Networks</li>
+              <li><a href="#">Telegram</a></li>
+              <li><a href="#">Github</a></li>
+              <li><a href="#">Google+</a></li>
+              <li><a href="#">Developer Application</a></li>
+            </ul>
+          </div>
+        <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Devices</li>
+                <li id="vendor_name"><span>Vendor1</span></li>
+                <ul class="nav nav-list">
+                  <li id="device_codename"><a href="devices/device1.html"><span>Device1 (codename)</span></a></li>
+                  <li id="device_codename"><a href="devices/device1.html"><span>Device2 (codename)</span></a></li>
+                  <li id="device_codename"><a href="devices/device1.html"><span>Device3 (codename)</span></a></li>
+                  <li id="device_codename"><a href="devices/device1.html"><span>Device4 (codename)</span></a></li>
+                </ul>
+                <li id="vendor_company_name"><span>Vendor2</span></li>
+                <ul class="nav nav-list">
+                  <li id="device_codename"><a href="devices/device1.html"><span>Device1 (codename)</span></a></li>
+                  <li id="device_codename"><a href="devices/device1.html"><span>Device2 (codename)</span></a></li>
+                  <li id="device_codename"><a href="devices/device1.html"><span>Device3 (codename)</span></a></li>
+                  <li id="device_codename"><a href="devices/device1.html"><span>Device4 (codename)</span></a></li>
+                </ul>
+            </ul>
+          </div>
+        </div>
+        <div class="span10">
+            <ul class="well span-6 info-tab" >
+              <center><li class="nav-header">What is the difference?</li>
+              <b>BUILD TYPES</b>: Alpha , Beta and Stable builds will be released for every device</br>
+              <b>RELEASE</b>: Tested after integrating new features.</br>
+              <b>UNOFFICIAL</b>: Maintained separately by individual developers, usually involves modification of shared code which cannot be merged (affects other devices), therefore maintained by the developer himself.</br>
+            </ul></center>
+        </div>
+      </div>
+    </div>
+  <script>
+    NProgress.start();
+    setTimeout(function() { NProgress.set(0.45); $('.fade').removeClass('out'); }, 0);
+    setTimeout(function() { NProgress.set(0.80); $('.fade').removeClass('out'); }, 1000);
+    setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 1500);
+  </script>
+  </body>
+</html>
