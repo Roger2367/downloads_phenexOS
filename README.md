@@ -19,4 +19,4 @@ Main Site can be accessed through the following URLs:
 
 Copyright (C) 2016 by Kartik B.
 
-This is an open source website.
+This is an open source website licensed under GPL v3.0. Copy of the license can be found [here](https://github.com/PhenexOS/downloads_phenexOS/blob/master/LICENSE.md).
