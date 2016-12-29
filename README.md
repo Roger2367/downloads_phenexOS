@@ -3,7 +3,7 @@ Website - PhenexOS-Downloads_Subdomain
 
 
 The website can be accessed through the following URLs:
-> - http://downloads.phenexos.com
+> - http://downloads.phenexos.com What to do after opening the site?Dance? Nacho BC 
 
 Main Site can be accessed through the following URLs:
 > - http://www.phenexos.com
